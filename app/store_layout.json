@@ -1,0 +1,32 @@
+{
+  "stores": [
+    {
+      "store_id": "STORE_BLR_001",
+      "name": "Apex Retail Bangalore 1",
+      "city": "Bangalore",
+      "open_hours": {"open": "10:00", "close": "21:00"},
+      "cameras": ["CAM_ENTRY_01", "CAM_FLOOR_01", "CAM_BILLING_01"],
+      "zones": [
+        {"zone_id": "ENTRY", "name": "Entry", "camera": "CAM_ENTRY_01"},
+        {"zone_id": "SKINCARE", "name": "Skincare", "camera": "CAM_FLOOR_01"},
+        {"zone_id": "HAIRCARE", "name": "Haircare", "camera": "CAM_FLOOR_01"},
+        {"zone_id": "MAKEUP", "name": "Makeup", "camera": "CAM_FLOOR_01"},
+        {"zone_id": "BILLING", "name": "Billing", "camera": "CAM_BILLING_01"}
+      ]
+    },
+    {
+      "store_id": "STORE_BLR_002",
+      "name": "Apex Retail Bangalore 2",
+      "city": "Bangalore",
+      "open_hours": {"open": "10:00", "close": "21:00"},
+      "cameras": ["CAM_ENTRY_01", "CAM_FLOOR_01", "CAM_BILLING_01"],
+      "zones": [
+        {"zone_id": "ENTRY", "name": "Entry", "camera": "CAM_ENTRY_01"},
+        {"zone_id": "MOISTURISER", "name": "Moisturiser", "camera": "CAM_FLOOR_01"},
+        {"zone_id": "FRAGRANCE", "name": "Fragrance", "camera": "CAM_FLOOR_01"},
+        {"zone_id": "SUPPLEMENTS", "name": "Supplements", "camera": "CAM_FLOOR_01"},
+        {"zone_id": "BILLING", "name": "Billing", "camera": "CAM_BILLING_01"}
+      ]
+    }
+  ]
+}
